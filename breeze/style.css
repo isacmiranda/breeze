@@ -1,0 +1,249 @@
+/*FONTES DO SITE */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+/*CABEÇALHO DO SITE */
+*{
+    text-decoration: none;
+}
+.titulo-page{ box-sizing: border-box;
+              padding-top: 2px;
+              background-color:  #c5c2c2 ;
+              width: auto;
+              height: 20px;
+              text-align: center;
+              font-family: 'Raleway', sans-serif;
+              
+    
+            }
+
+.menu{   padding: 20px 0px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content:space-around;
+          
+          font-family: 'Raleway', sans-serif;
+}
+
+
+.logo-breeze{
+    width: 140px;
+    height: 140px;
+}
+
+/* PARTE CENTRAL DO SITE */
+
+.imagem1 {
+    background-image:url(img/breeze-bg.jpg);
+    position: static;
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    box-sizing:border-box;
+    border: #000000 solid 0.5px;
+    border-radius: 15%;
+}
+
+
+main {  background-color: #c5c2c2;
+        height: 600px;
+        text-align: center;
+        padding-top: 70px;
+        margin: auto;
+                      
+    }
+main img{
+
+    width: 100%;
+}
+     
+
+
+.texto1{padding-top: 50px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    
+    }
+
+.contatos{
+           height: 200px;
+           background-color: rgb(228, 228, 228);
+           display:flex;
+           padding-top: 20px;
+           padding-bottom: 20px;
+           flex-direction: row;
+           justify-content:center;
+           font-family: 'Raleway', sans-serif;
+           
+                     
+}
+.contatos h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: rgba(175, 175, 175, 0);
+    border-radius: 10px solid rgba(175, 175, 175, 0) ;
+  
+   
+
+}
+.texto-contatos{ 
+  
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-top: 25px;  
+
+}
+
+.gmail { width: 110px;
+        height: 110px;
+        align-items: center;
+        padding-right: 30px;
+        
+
+}
+
+.telefone { width: 110px;
+           height: 110px;
+           align-items: center;
+           padding-left: 30px;
+        }
+
+.text-pdf{ 
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-bottom: 2px;
+    
+    
+    
+   
+
+}
+
+.botao-baixar{
+    padding: 10px 8px; 
+    margin-top: 30px;    
+    margin-bottom: 20px;
+    width: 150px;
+    color: #000000;
+    background-color: #25d366;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    
+              
+}
+
+
+
+.whatsapp-link{  position:fixed; 
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow:1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp{
+    margin-top: 16px;
+}
+ 
+.seta-topo{
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    padding: 10px;
+    position: fixed;
+    right:  50px;
+    bottom: 130px;
+}
+
+
+/*RODAPÉ DO SITE */
+
+footer{
+   
+    text-align: center;
+    background-color:#ffffff;
+    padding: 40px 0;
+}
+.copyright {
+    color: #000000;
+    font-size: 15px;
+    margin: 20px 0 10px;}
+
+.rd-image{
+    margin-top: 20px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:500px)
+
+{  
+    main{
+        height: 500px;
+    }
+    .imagem1{width: 300px;
+              height: 250px;} 
+     .texto1,h1{
+        margin: auto;
+        font-size: 13px;
+        
+     }
+ 
+     .whatsapp-link{
+        position:fixed; 
+        width: 40px;
+        height: 40px;
+        bottom: 80px;
+        right: 10px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius:40px;
+        text-align: center;
+        font-size: 25px;
+        box-shadow:1px 1px 2px #888;
+        z-index: 1000;
+
+     }
+     .contatos{
+        padding-bottom: 2px;
+     }
+     .fa-whatsapp{
+        margin-top: 8px;
+    }
+     .texto-contatos{
+        margin: auto;
+        font-size: 13px;
+     }
+
+     .text-pdf{
+        margin: auto;
+        font-size: 13px
+     }
+    
+     .seta-topo{
+        right: 10px;
+     }
+   
+
+}
+    
+
+
