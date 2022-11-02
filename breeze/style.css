@@ -195,7 +195,11 @@ footer{
 
 @media screen and (max-width:550px)
 
-{  
+{  *{ margin: auto;
+        font-size: 13px;
+    
+    }
+    
     main{
         height: 500px;
     }
